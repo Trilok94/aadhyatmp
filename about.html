@@ -1,0 +1,615 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>About Us - AADHYA Telecom Infrastructure Services</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@500;600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-secondary-fixed": "#341100",
+              "primary-fixed": "#dae2fd",
+              tertiary: "#000000",
+              "surface-container-low": "#eff4ff",
+              "secondary-fixed": "#ffdbca",
+              "on-tertiary": "#ffffff",
+              "on-surface": "#0b1c30",
+              "on-primary-fixed-variant": "#3f465c",
+              "inverse-surface": "#213145",
+              "secondary-container": "#fd761a",
+              "on-tertiary-fixed-variant": "#005049",
+              "on-secondary-fixed-variant": "#783200",
+              "surface-dim": "#cbdbf5",
+              "surface-variant": "#d3e4fe",
+              error: "#ba1a1a",
+              "on-primary-container": "#7c839b",
+              "primary-fixed-dim": "#bec6e0",
+              "on-primary-fixed": "#131b2e",
+              "on-error-container": "#93000a",
+              "surface-container-highest": "#d3e4fe",
+              "on-secondary-container": "#5c2400",
+              surface: "#f8f9ff",
+              "inverse-primary": "#bec6e0",
+              "error-container": "#ffdad6",
+              "on-primary": "#ffffff",
+              "on-secondary": "#ffffff",
+              "on-error": "#ffffff",
+              "surface-container-high": "#dce9ff",
+              "primary-container": "#131b2e",
+              "on-background": "#0b1c30",
+              "secondary-fixed-dim": "#ffb690",
+              secondary: "#9d4300",
+              "inverse-on-surface": "#eaf1ff",
+              "tertiary-fixed-dim": "#6bd8cb",
+              "surface-bright": "#f8f9ff",
+              "surface-tint": "#565e74",
+              background: "#f8f9ff",
+              "surface-container": "#e5eeff",
+              primary: "#000000",
+              "tertiary-fixed": "#89f5e7",
+              "surface-container-lowest": "#ffffff",
+              "outline-variant": "#c6c6cd",
+              outline: "#76777d",
+              "on-tertiary-fixed": "#00201d",
+              "on-surface-variant": "#45464d",
+              "tertiary-container": "#00201d",
+              "on-tertiary-container": "#0c9488",
+            },
+            borderRadius: {
+              DEFAULT: "0.125rem",
+              lg: "0.25rem",
+              xl: "0.5rem",
+              full: "0.75rem",
+            },
+            spacing: {
+              "margin-mobile": "16px",
+              "stack-sm": "8px",
+              "stack-md": "16px",
+              "margin-desktop": "40px",
+              gutter: "24px",
+              base: "4px",
+              "stack-lg": "32px",
+            },
+            fontFamily: {
+              "headline-lg-mobile": ["Hanken Grotesk"],
+              "body-lg": ["Inter"],
+              "status-code": ["JetBrains Mono"],
+              display: ["Hanken Grotesk"],
+              "body-md": ["Inter"],
+              "headline-md": ["Hanken Grotesk"],
+              "headline-lg": ["Hanken Grotesk"],
+              "label-caps": ["JetBrains Mono"],
+            },
+            fontSize: {
+              "headline-lg-mobile": [
+                "24px",
+                { lineHeight: "32px", fontWeight: "700" },
+              ],
+              "body-lg": ["18px", { lineHeight: "28px", fontWeight: "400" }],
+              "status-code": [
+                "14px",
+                { lineHeight: "20px", fontWeight: "500" },
+              ],
+              display: [
+                "48px",
+                {
+                  lineHeight: "56px",
+                  letterSpacing: "-0.02em",
+                  fontWeight: "800",
+                },
+              ],
+              "body-md": ["16px", { lineHeight: "24px", fontWeight: "400" }],
+              "headline-md": [
+                "24px",
+                { lineHeight: "32px", fontWeight: "600" },
+              ],
+              "headline-lg": [
+                "32px",
+                { lineHeight: "40px", fontWeight: "700" },
+              ],
+              "label-caps": [
+                "12px",
+                {
+                  lineHeight: "16px",
+                  letterSpacing: "0.1em",
+                  fontWeight: "600",
+                },
+              ],
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: #f8f9ff;
+        color: #0b1c30;
+      }
+      .bg-grid-pattern {
+        background-image: radial-gradient(#c6c6cd 1px, transparent 1px);
+        background-size: 24px 24px;
+      }
+      .tech-border {
+        border: 1px solid #e2e8f0;
+      }
+      .tech-inset {
+        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+        border: 1px solid #e2e8f0;
+      }
+    </style>
+  </head>
+  <body class="bg-background min-h-screen flex flex-col">
+    <!-- TopNavBar -->
+    <nav class="bg-surface dark:bg-primary-container font-headline-md text-base w-full top-0 sticky border-b border-outline-variant dark:border-outline z-50 shadow-sm">
+<div class="flex justify-between items-center h-16 px-10 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-10">
+<a href="index.html" class="flex items-center h-8"><img src="https://lh3.googleusercontent.com/aida/AP1WRLsTMPthliPeOd-OlkzsZqUE06CWCVKGe2BV2nftASaZ3JRl7MyeCiwwv3Tr6d8dwJWHh2qIAvBeEXeEGkBz2oJ6s2ifCpqzX4tTfm3HWhVs0NIs8zjLKSDbCe3hp0gonowb62-JaiT8ZPA8FeA2tQFKHQ8kgE1s3VS5dLNKHE_4cqfECKSsuQTAJu-rZu2bF0ZmaikAHr0_LLejYnAlgigHbY3Zuh8n5AmQwOcTTZQTSFEHAguQ5RQCr76x" alt="AADHYA Logo" class="h-8 w-auto object-contain"></a>
+<div class="hidden md:flex gap-8 items-center h-full">
+<a class="font-headline-md text-[16px] font-semibold tracking-wide text-on-surface-variant dark:text-on-surface-variant hover:text-primary transition-colors duration-200 cursor-pointer active:opacity-80" href="index.html">Home</a>
+<a class="font-headline-md text-[16px] font-semibold tracking-wide text-on-surface-variant dark:text-on-surface-variant hover:text-primary transition-colors duration-200 cursor-pointer active:opacity-80" href="services.html">Services</a>
+<a class="font-headline-md text-[16px] font-semibold tracking-wide text-on-surface-variant dark:text-on-surface-variant hover:text-primary transition-colors duration-200 cursor-pointer active:opacity-80" href="why_choose_us.html">Why Choose Us</a>
+<a class="font-headline-md text-[16px] font-semibold tracking-wide text-on-surface-variant dark:text-on-surface-variant hover:text-primary transition-colors duration-200 cursor-pointer active:opacity-80" href="about.html">About Us</a>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<a href="contact.html" class="bg-secondary text-on-secondary px-5 py-2 rounded font-label-caps text-[13px] uppercase tracking-wider hover:bg-secondary-container transition-colors tech-shadow cursor-pointer text-center font-bold">Contact Us</a>
+</div>
+</div>
+</nav>
+    <!-- Main Content -->
+    <main class="flex-grow flex flex-col gap-stack-lg pb-stack-lg">
+      <!-- Hero Section -->
+      <section
+        class="relative w-full min-h-[60vh] flex items-center justify-center bg-surface-container-high border-b border-outline-variant overflow-hidden"
+      >
+        <div class="absolute inset-0 bg-grid-pattern opacity-30"></div>
+        <div
+          class="absolute inset-0 bg-gradient-to-r from-surface-container-high via-surface-container-high/90 to-transparent z-10"
+        ></div>
+        <!-- Hero Image Background Placeholder -->
+        <div class="absolute inset-0 z-0 flex justify-end">
+          <img
+            class="w-2/3 h-full object-cover opacity-80 object-right"
+            data-alt="A wide shot of a massive industrial telecom tower structure against a clear blue sky. A field engineer wearing a safety helmet and high-visibility orange vest stands in the foreground, looking up at the tower. The scene is bright and professional, emphasizing scale, technical expertise, and reliability in a corporate light-mode setting."
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYPBqwhEs7NnG9JNvCj18qHSyZ2Tuz2GQNTYxhOt_HoogzCMl2yuT02RIQAeerbLpsapMJkd7pb01NGH39f8Tn3dCN9FJrTdrCNT6s8BBIt2KYM5v3RyqT15pEyxMXuRK2J9e40kYUJyBv4-7TbacNUXcByukLkjynmpH2mUgXd-C44SiaeffmzLxwFdWgZKsXAqNAUsEPTLc_ftAz0z8rRcK36AW_R__rLrkGwlSrJ6dCFbS89etwtg"
+          />
+        </div>
+        <div
+          class="relative z-20 max-w-7xl mx-auto w-full px-margin-desktop md:px-margin-desktop px-margin-mobile flex flex-col gap-stack-md pt-20 pb-20"
+        >
+          <div class="flex items-center gap-2 mb-2">
+            <span class="h-1 w-8 bg-secondary"></span>
+            <span
+              class="font-label-caps text-label-caps text-on-surface-variant uppercase"
+              >Infrastructure Maintenance</span
+            >
+          </div>
+          <h1 class="font-display text-display text-on-surface md:w-2/3 w-full">
+            Powering Connectivity Across the Nation.
+          </h1>
+          <p
+            class="font-body-lg text-body-lg text-on-surface-variant md:w-1/2 w-full mt-4"
+          >
+            Delivering unwavering reliability and technical mastery in telecom
+            tower operations. We are the boots-on-the-ground experts ensuring
+            seamless communication infrastructure.
+          </p>
+          <div class="flex gap-4 mt-8">
+            <button
+              class="bg-secondary text-on-secondary font-label-caps text-label-caps px-8 py-4 rounded-DEFAULT hover:bg-secondary-container transition-colors duration-200 border border-secondary shadow-sm"
+            >
+              Explore Services
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- Mission & Vision Bento -->
+      <section
+        class="max-w-7xl mx-auto w-full px-margin-desktop md:px-margin-desktop px-margin-mobile grid grid-cols-1 md:grid-cols-12 gap-gutter mt-stack-lg"
+      >
+        <div class="col-span-1 md:col-span-12 mb-4">
+          <h2
+            class="font-headline-lg text-headline-lg md:font-headline-lg text-on-surface border-b border-outline-variant pb-4"
+          >
+            Core Directives
+          </h2>
+        </div>
+        <div
+          class="col-span-1 md:col-span-7 bg-surface border tech-border rounded-DEFAULT p-8 relative overflow-hidden flex flex-col justify-between min-h-[300px]"
+        >
+          <div class="absolute top-0 left-0 w-full h-1 bg-secondary"></div>
+          <div>
+            <div class="flex items-center gap-3 mb-6">
+              <span
+                class="material-symbols-outlined text-secondary"
+                style="font-variation-settings: &quot;FILL&quot; 1"
+                >track_changes</span
+              >
+              <h3 class="font-headline-md text-headline-md text-on-surface">
+                Our Mission
+              </h3>
+            </div>
+            <p
+              class="font-body-md text-body-md text-on-surface-variant leading-relaxed"
+            >
+              To provide uncompromising excellence in telecom tower maintenance
+              and infrastructure management. We deploy technical precision and
+              robust operational strategies to guarantee network uptime, safety,
+              and performance for our enterprise partners across diverse
+              terrains.
+            </p>
+          </div>
+          <div
+            class="mt-8 pt-4 border-t border-outline-variant border-dashed flex justify-between items-end"
+          >
+            <span
+              class="font-status-code text-status-code text-on-surface-variant"
+              >OBJ-MSN-01</span
+            >
+            <span class="font-label-caps text-label-caps text-secondary"
+              >Active Protocol</span
+            >
+          </div>
+        </div>
+        <div
+          class="col-span-1 md:col-span-5 bg-primary-container border border-outline rounded-DEFAULT p-8 relative flex flex-col justify-between min-h-[300px]"
+        >
+          <div
+            class="absolute top-0 left-0 w-full h-1 bg-tertiary-fixed-dim"
+          ></div>
+          <div>
+            <div class="flex items-center gap-3 mb-6">
+              <span
+                class="material-symbols-outlined text-tertiary-fixed-dim"
+                style="font-variation-settings: &quot;FILL&quot; 1"
+                >visibility</span
+              >
+              <h3 class="font-headline-md text-headline-md text-on-primary">
+                Our Vision
+              </h3>
+            </div>
+            <p
+              class="font-body-md text-body-md text-primary-fixed-dim leading-relaxed"
+            >
+              To be the undisputed leader in telecommunication infrastructure
+              services in India, recognized for setting the industry benchmark
+              in reliability, safety standards, and innovative maintenance
+              solutions.
+            </p>
+          </div>
+          <div
+            class="mt-8 pt-4 border-t border-on-primary-fixed-variant border-dashed flex justify-between items-end"
+          >
+            <span
+              class="font-status-code text-status-code text-primary-fixed-dim"
+              >VSN-TRG-2030</span
+            >
+          </div>
+        </div>
+      </section>
+      <!-- Our Journey / Timeline -->
+      <section
+        class="bg-surface-container-low border-y border-outline-variant py-stack-lg mt-stack-lg"
+      >
+        <div
+          class="max-w-7xl mx-auto w-full px-margin-desktop md:px-margin-desktop px-margin-mobile"
+        >
+          <div
+            class="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 border-b border-outline-variant pb-6"
+          >
+            <div>
+              <h2 class="font-headline-lg text-headline-lg text-on-surface">
+                Operational Timeline
+              </h2>
+              <p class="font-body-md text-body-md text-on-surface-variant mt-2">
+                The evolution of our technical leadership.
+              </p>
+            </div>
+          </div>
+          <div
+            class="relative border-l-2 border-outline-variant ml-4 md:ml-0 md:pl-0 space-y-12"
+          >
+            <!-- Timeline Item 1 -->
+            <div class="relative pl-8 md:pl-12">
+              <div
+                class="absolute w-4 h-4 bg-secondary rounded-full -left-[9px] top-1 border-2 border-surface"
+              ></div>
+              <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                <div class="col-span-1">
+                  <span
+                    class="font-status-code text-status-code text-secondary bg-secondary-fixed/20 px-2 py-1 rounded-sm tech-border"
+                    >PHASE: 2018</span
+                  >
+                </div>
+                <div class="col-span-3">
+                  <h4
+                    class="font-headline-md text-headline-md text-on-surface mb-2"
+                  >
+                    Foundation &amp; Deployment
+                  </h4>
+                  <p class="font-body-md text-body-md text-on-surface-variant">
+                    AADHYA established operations with a core team of senior
+                    field engineers, initiating maintenance contracts for tier-1
+                    telecom providers in critical northern zones.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Timeline Item 2 -->
+            <div class="relative pl-8 md:pl-12">
+              <div
+                class="absolute w-4 h-4 bg-tertiary-fixed-dim rounded-full -left-[9px] top-1 border-2 border-surface"
+              ></div>
+              <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                <div class="col-span-1">
+                  <span
+                    class="font-status-code text-status-code text-tertiary-container bg-tertiary-fixed/20 px-2 py-1 rounded-sm tech-border"
+                    >PHASE: 2021</span
+                  >
+                </div>
+                <div class="col-span-3">
+                  <h4
+                    class="font-headline-md text-headline-md text-on-surface mb-2"
+                  >
+                    National Scale Operations
+                  </h4>
+                  <p class="font-body-md text-body-md text-on-surface-variant">
+                    Expanded footprint across 15 states, deploying standardized
+                    safety protocols and integrating digital ticketing systems
+                    for rapid issue resolution and preventative maintenance.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Timeline Item 3 -->
+            <div class="relative pl-8 md:pl-12">
+              <div
+                class="absolute w-4 h-4 bg-on-surface rounded-full -left-[9px] top-1 border-2 border-surface"
+              ></div>
+              <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                <div class="col-span-1">
+                  <span
+                    class="font-status-code text-status-code text-on-surface bg-surface-variant/50 px-2 py-1 rounded-sm tech-border"
+                    >PHASE: PRESENT</span
+                  >
+                </div>
+                <div class="col-span-3">
+                  <h4
+                    class="font-headline-md text-headline-md text-on-surface mb-2"
+                  >
+                    Technical Mastery &amp; Optimization
+                  </h4>
+                  <p class="font-body-md text-body-md text-on-surface-variant">
+                    Currently managing thousands of nodes. Implementation of
+                    advanced diagnostic tools and continuous training programs
+                    ensuring our workforce remains at the forefront of telecom
+                    infrastructure technology.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- PAN India Presence -->
+      <section
+        class="max-w-7xl mx-auto w-full px-margin-desktop md:px-margin-desktop px-margin-mobile mt-stack-lg"
+      >
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-gutter items-center">
+          <div class="order-2 md:order-1 flex flex-col gap-6">
+            <h2 class="font-headline-lg text-headline-lg text-on-surface">
+              PAN India Presence
+            </h2>
+            <p class="font-body-lg text-body-lg text-on-surface-variant">
+              Our logistical network spans the subcontinent. We combine
+              centralized management with decentralized execution, ensuring
+              rapid response times and localized expertise regardless of the
+              terrain.
+            </p>
+            <div class="grid grid-cols-2 gap-4 mt-4">
+              <div class="bg-surface tech-inset p-4 rounded-DEFAULT">
+                <div
+                  class="font-status-code text-status-code text-on-surface-variant mb-1"
+                >
+                  NODES MANAGED
+                </div>
+                <div class="font-headline-lg text-headline-lg text-secondary">
+                  15,000+
+                </div>
+              </div>
+              <div class="bg-surface tech-inset p-4 rounded-DEFAULT">
+                <div
+                  class="font-status-code text-status-code text-on-surface-variant mb-1"
+                >
+                  STATES COVERED
+                </div>
+                <div class="font-headline-lg text-headline-lg text-secondary">
+                  22
+                </div>
+              </div>
+              <div class="bg-surface tech-inset p-4 rounded-DEFAULT">
+                <div
+                  class="font-status-code text-status-code text-on-surface-variant mb-1"
+                >
+                  FIELD ENGINEERS
+                </div>
+                <div class="font-headline-lg text-headline-lg text-secondary">
+                  500+
+                </div>
+              </div>
+              <div class="bg-surface tech-inset p-4 rounded-DEFAULT">
+                <div
+                  class="font-status-code text-status-code text-on-surface-variant mb-1"
+                >
+                  AVG RESPONSE
+                </div>
+                <div class="font-headline-lg text-headline-lg text-secondary">
+                  &lt; 2 HRS
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="order-1 md:order-2 bg-surface-container-highest rounded-DEFAULT p-2 tech-border min-h-[400px] flex items-center justify-center relative"
+          >
+            <!-- Map Placeholder -->
+            <div class="absolute inset-0 opacity-10 bg-grid-pattern"></div>
+            <img
+              class="w-full h-full object-contain p-8 relative z-10"
+              data-alt="A stylized, technical map of India in a light gray and blue duotone color scheme. Several points on the map are highlighted with bright orange markers, indicating active telecom tower nodes. The map looks like a digital dashboard interface used in a modern command center, clean and precise."
+              data-location="India"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCV9PFtNlT-kUcBwVZwJPUoIp9LBYlzkgipQpAehxGXWMbrfi6C-k4j3RVDJqXs7V918SEq5itQ7zfjtQL8TZntyFfDXHT5XabO5oR5tCKnc4Ylgknv6ns2kCOZl-J_-IzbBTpkg9j97AStl7IKnnZmKXTqbKLcKjZfgqUfTPSvi_qWhxG0iM3WKQZ1Vkyi4r56oPK_JhGS5dwIv6qE3qTOA26T52119i_47p38qkUBjuprjKIwnZ88yQ"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Core Values Grid -->
+      <section
+        class="max-w-7xl mx-auto w-full px-margin-desktop md:px-margin-desktop px-margin-mobile mt-stack-lg mb-stack-lg"
+      >
+        <h2
+          class="font-headline-lg text-headline-lg text-on-surface text-center mb-12"
+        >
+          Operational Tenets
+        </h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+          <!-- Value 1 -->
+          <div
+            class="bg-surface border tech-border rounded-DEFAULT p-6 hover:border-secondary transition-colors duration-300"
+          >
+            <div
+              class="w-12 h-12 bg-secondary-fixed/30 rounded-sm flex items-center justify-center mb-4 tech-border"
+            >
+              <span
+                class="material-symbols-outlined text-secondary"
+                style="font-variation-settings: &quot;FILL&quot; 0"
+                >shield</span
+              >
+            </div>
+            <h4 class="font-headline-md text-headline-md text-on-surface mb-2">
+              Safety First
+            </h4>
+            <p class="font-body-md text-body-md text-on-surface-variant">
+              Zero-compromise approach to occupational hazards. Stringent
+              protocols protect our teams and infrastructure.
+            </p>
+          </div>
+          <!-- Value 2 -->
+          <div
+            class="bg-surface border tech-border rounded-DEFAULT p-6 hover:border-tertiary-fixed-dim transition-colors duration-300"
+          >
+            <div
+              class="w-12 h-12 bg-surface-variant rounded-sm flex items-center justify-center mb-4 tech-border"
+            >
+              <span
+                class="material-symbols-outlined text-on-surface"
+                style="font-variation-settings: &quot;FILL&quot; 0"
+                >engineering</span
+              >
+            </div>
+            <h4 class="font-headline-md text-headline-md text-on-surface mb-2">
+              Technical Precision
+            </h4>
+            <p class="font-body-md text-body-md text-on-surface-variant">
+              Measured, accurate execution of all maintenance tasks. We rely on
+              data and expertise, not guesswork.
+            </p>
+          </div>
+          <!-- Value 3 -->
+          <div
+            class="bg-surface border tech-border rounded-DEFAULT p-6 hover:border-secondary transition-colors duration-300"
+          >
+            <div
+              class="w-12 h-12 bg-secondary-fixed/30 rounded-sm flex items-center justify-center mb-4 tech-border"
+            >
+              <span
+                class="material-symbols-outlined text-secondary"
+                style="font-variation-settings: &quot;FILL&quot; 0"
+                >verified</span
+              >
+            </div>
+            <h4 class="font-headline-md text-headline-md text-on-surface mb-2">
+              Unwavering Reliability
+            </h4>
+            <p class="font-body-md text-body-md text-on-surface-variant">
+              Consistent performance under pressure. We ensure maximum uptime
+              for critical communication networks.
+            </p>
+          </div>
+          <!-- Value 4 -->
+          <div
+            class="bg-surface border tech-border rounded-DEFAULT p-6 hover:border-tertiary-fixed-dim transition-colors duration-300"
+          >
+            <div
+              class="w-12 h-12 bg-surface-variant rounded-sm flex items-center justify-center mb-4 tech-border"
+            >
+              <span
+                class="material-symbols-outlined text-on-surface"
+                style="font-variation-settings: &quot;FILL&quot; 0"
+                >handshake</span
+              >
+            </div>
+            <h4 class="font-headline-md text-headline-md text-on-surface mb-2">
+              Integrity
+            </h4>
+            <p class="font-body-md text-body-md text-on-surface-variant">
+              Transparent reporting and honest partnerships. We build trust
+              through accountable operations.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-inverse-surface dark:bg-tertiary text-on-primary-fixed dark:text-on-tertiary font-body-md text-body-md w-full py-16 border-t border-outline dark:border-outline-variant mt-20">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-10 max-w-screen-2xl mx-auto">
+<div class="md:col-span-1">
+<div class="mb-6 h-10 flex items-center"><img src="https://lh3.googleusercontent.com/aida/AP1WRLsTMPthliPeOd-OlkzsZqUE06CWCVKGe2BV2nftASaZ3JRl7MyeCiwwv3Tr6d8dwJWHh2qIAvBeEXeEGkBz2oJ6s2ifCpqzX4tTfm3HWhVs0NIs8zjLKSDbCe3hp0gonowb62-JaiT8ZPA8FeA2tQFKHQ8kgE1s3VS5dLNKHE_4cqfECKSsuQTAJu-rZu2bF0ZmaikAHr0_LLejYnAlgigHbY3Zuh8n5AmQwOcTTZQTSFEHAguQ5RQCr76x" alt="AADHYA Logo" class="h-10 w-auto object-contain"></div>
+<p class="text-surface-variant opacity-80 mb-6 text-sm">Precision maintenance and operational excellence for critical telecom infrastructure.</p>
+</div>
+<div>
+<h4 class="font-label-caps text-label-caps uppercase text-surface-container-lowest mb-4 tracking-wider">Company</h4>
+<ul class="space-y-3">
+<li class=""><a class="text-surface-variant opacity-80 hover:text-secondary-fixed-dim hover:opacity-100 transition-opacity cursor-pointer" href="about.html">About Us</a></li>
+<li class=""><a class="text-surface-variant opacity-80 hover:text-secondary-fixed-dim hover:opacity-100 transition-opacity cursor-pointer" href="why_choose_us.html">Why Choose Us</a></li>
+<li class=""><a class="text-surface-variant opacity-80 hover:text-secondary-fixed-dim hover:opacity-100 transition-opacity cursor-pointer" href="services.html">Services</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-label-caps text-label-caps uppercase text-surface-container-lowest mb-4 tracking-wider">Legal</h4>
+<ul class="space-y-3">
+<li class=""><a class="text-surface-variant opacity-80 hover:text-secondary-fixed-dim hover:opacity-100 transition-opacity cursor-pointer" href="privacyandpolicy.html">Privacy Policy</a></li>
+<li class=""><a class="text-surface-variant opacity-80 hover:text-secondary-fixed-dim hover:opacity-100 transition-opacity cursor-pointer" href="termsandcondition.html">Terms of Service</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-label-caps text-label-caps uppercase text-surface-container-lowest mb-4 tracking-wider">Support</h4>
+<ul class="space-y-3">
+<li class=""><a class="text-surface-variant opacity-80 hover:text-secondary-fixed-dim hover:opacity-100 transition-opacity cursor-pointer" href="contact.html">Contact Us</a></li>
+</ul>
+</div>
+</div>
+<div class="mt-12 pt-8 border-t border-outline/30 px-10 max-w-screen-2xl mx-auto text-sm text-surface-variant opacity-60">
+            © 2024 AADHYA Telecom Tower Maintenance Services. All Rights Reserved.
+        </div>
+</footer>
+  </body>
+</html>

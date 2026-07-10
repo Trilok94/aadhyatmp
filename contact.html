@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Contact Us - AADHYA Telecom Tower Maintenance</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "primary-fixed-dim": "#bec6e0",
+                      "on-secondary-fixed": "#341100",
+                      "surface-dim": "#cbdbf5",
+                      "error-container": "#ffdad6",
+                      "outline-variant": "#c6c6cd",
+                      "inverse-surface": "#213145",
+                      "tertiary-fixed-dim": "#6bd8cb",
+                      "surface-container-low": "#eff4ff",
+                      "on-tertiary-fixed-variant": "#005049",
+                      "tertiary-container": "#00201d",
+                      "surface-tint": "#565e74",
+                      "secondary-container": "#fd761a",
+                      "surface-container-lowest": "#ffffff",
+                      "on-primary-fixed-variant": "#3f465c",
+                      "surface": "#f8f9ff",
+                      "surface-bright": "#f8f9ff",
+                      "primary": "#000000",
+                      "on-primary-fixed": "#131b2e",
+                      "on-primary": "#ffffff",
+                      "inverse-on-surface": "#eaf1ff",
+                      "tertiary-fixed": "#89f5e7",
+                      "on-error-container": "#93000a",
+                      "on-secondary-fixed-variant": "#783200",
+                      "on-tertiary-fixed": "#00201d",
+                      "outline": "#76777d",
+                      "primary-container": "#131b2e",
+                      "surface-container": "#e5eeff",
+                      "on-tertiary": "#ffffff",
+                      "secondary": "#9d4300",
+                      "surface-container-highest": "#d3e4fe",
+                      "background": "#f8f9ff",
+                      "surface-container-high": "#dce9ff",
+                      "on-tertiary-container": "#0c9488",
+                      "tertiary": "#000000",
+                      "on-error": "#ffffff",
+                      "secondary-fixed-dim": "#ffb690",
+                      "primary-fixed": "#dae2fd",
+                      "on-background": "#0b1c30",
+                      "secondary-fixed": "#ffdbca",
+                      "on-surface": "#0b1c30",
+                      "on-secondary": "#ffffff",
+                      "on-primary-container": "#7c839b",
+                      "on-secondary-container": "#5c2400",
+                      "error": "#ba1a1a",
+                      "surface-variant": "#d3e4fe",
+                      "on-surface-variant": "#45464d",
+                      "inverse-primary": "#bec6e0"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "spacing": {
+                      "stack-lg": "32px",
+                      "margin-mobile": "16px",
+                      "margin-desktop": "40px",
+                      "base": "4px",
+                      "stack-sm": "8px",
+                      "stack-md": "16px",
+                      "gutter": "24px"
+              },
+              "fontFamily": {
+                      "label-caps": [
+                              "JetBrains Mono"
+                      ],
+                      "body-lg": [
+                              "Inter"
+                      ],
+                      "headline-md": [
+                              "Hanken Grotesk"
+                      ],
+                      "headline-lg": [
+                              "Hanken Grotesk"
+                      ],
+                      "body-md": [
+                              "Inter"
+                      ],
+                      "status-code": [
+                              "JetBrains Mono"
+                      ],
+                      "headline-lg-mobile": [
+                              "Hanken Grotesk"
+                      ],
+                      "display": [
+                              "Hanken Grotesk"
+                      ]
+              },
+              "fontSize": {
+                      "label-caps": [
+                              "12px",
+                              {
+                                      "lineHeight": "16px",
+                                      "letterSpacing": "0.1em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "body-lg": [
+                              "18px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "headline-md": [
+                              "24px",
+                              {
+                                      "lineHeight": "32px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "headline-lg": [
+                              "32px",
+                              {
+                                      "lineHeight": "40px",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "body-md": [
+                              "16px",
+                              {
+                                      "lineHeight": "24px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "status-code": [
+                              "14px",
+                              {
+                                      "lineHeight": "20px",
+                                      "fontWeight": "500"
+                              }
+                      ],
+                      "headline-lg-mobile": [
+                              "24px",
+                              {
+                                      "lineHeight": "32px",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "display": [
+                              "48px",
+                              {
+                                      "lineHeight": "56px",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "800"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+      </script>
+<style>
+        .grid-bg {
+            background-size: 20px 20px;
+            background-image: radial-gradient(circle, #e2e8f0 1px, transparent 1px);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body-md text-body-md antialiased min-h-screen flex flex-col grid-bg">
+<!-- TopNavBar -->
+<nav class="bg-surface dark:bg-primary-container font-headline-md text-base w-full top-0 sticky border-b border-outline-variant dark:border-outline z-50 shadow-sm">
+<div class="flex justify-between items-center h-16 px-10 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-10">
+<a href="index.html" class="flex items-center h-8"><img src="https://lh3.googleusercontent.com/aida/AP1WRLsTMPthliPeOd-OlkzsZqUE06CWCVKGe2BV2nftASaZ3JRl7MyeCiwwv3Tr6d8dwJWHh2qIAvBeEXeEGkBz2oJ6s2ifCpqzX4tTfm3HWhVs0NIs8zjLKSDbCe3hp0gonowb62-JaiT8ZPA8FeA2tQFKHQ8kgE1s3VS5dLNKHE_4cqfECKSsuQTAJu-rZu2bF0ZmaikAHr0_LLejYnAlgigHbY3Zuh8n5AmQwOcTTZQTSFEHAguQ5RQCr76x" alt="AADHYA Logo" class="h-8 w-auto object-contain"></a>
+<div class="hidden md:flex gap-8 items-center h-full">
+<a class="font-headline-md text-[16px] font-semibold tracking-wide text-on-surface-variant dark:text-on-surface-variant hover:text-primary transition-colors duration-200 cursor-pointer active:opacity-80" href="index.html">Home</a>
+<a class="font-headline-md text-[16px] font-semibold tracking-wide text-on-surface-variant dark:text-on-surface-variant hover:text-primary transition-colors duration-200 cursor-pointer active:opacity-80" href="services.html">Services</a>
+<a class="font-headline-md text-[16px] font-semibold tracking-wide text-on-surface-variant dark:text-on-surface-variant hover:text-primary transition-colors duration-200 cursor-pointer active:opacity-80" href="why_choose_us.html">Why Choose Us</a>
+<a class="font-headline-md text-[16px] font-semibold tracking-wide text-on-surface-variant dark:text-on-surface-variant hover:text-primary transition-colors duration-200 cursor-pointer active:opacity-80" href="about.html">About Us</a>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<a href="contact.html" class="bg-secondary text-on-secondary px-5 py-2 rounded font-label-caps text-[13px] uppercase tracking-wider hover:bg-secondary-container transition-colors tech-shadow cursor-pointer text-center font-bold">Contact Us</a>
+</div>
+</div>
+</nav>
+<main class="flex-grow flex flex-col items-center w-full max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop py-stack-lg gap-stack-lg">
+<!-- Hero Section -->
+<section class="w-full bg-surface-container-lowest border border-outline-variant rounded-lg p-stack-lg md:p-[64px] relative overflow-hidden flex flex-col items-center text-center">
+<div class="absolute inset-0 opacity-10 pointer-events-none" data-alt="A highly detailed blueprint map of India showing various nodes and connecting lines, representing a vast telecommunications network. The visual style is technical, industrial, and precise, using deep navy blues and stark whites with subtle safety orange highlights on the nodes. The overall mood is authoritative and structured, typical of enterprise engineering schematics." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCinpkHL7VW1DeWH58KpC7AcYA9BRCLRPFdJrRnDK8sSmZepVfAE_LJM0hlmB4CoPJ216mX7aE9AcT1E9PXtaCYw0ltb3iSasw_Do7zTw1BHC-cD_jo8vYrLIuuo9x6YuFxtDS8ln_uwGL6B0T6i0IskPiDP3CXbTXZ0m59Kra8bKiixx-2IGWb3hnwHrSjnhS5UvB1sr9emftaV3k5lYm3gELauX8hCIOlOg10JKhuBR61qBnOuGDR5g')"></div>
+<div class="relative z-10 max-w-3xl flex flex-col gap-stack-md items-center">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest">Support Portal</span>
+<h1 class="font-display text-display text-primary">Get in Touch</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+                    Reliable support and expert consultation for your telecom infrastructure needs. Our team is available 24/7 for emergency technical assistance across India.
+                </p>
+</div>
+</section>
+<!-- Main Content Area -->
+<section class="w-full grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<!-- Contact Form (Left) -->
+<div class="lg:col-span-8 bg-surface-container-lowest border border-outline-variant rounded-lg p-stack-md md:p-stack-lg">
+<div class="border-t-[4px] border-secondary w-full absolute top-0 left-0 rounded-t-lg"></div>
+<h2 class="font-headline-md text-headline-md text-primary mb-stack-md">Submit an Inquiry</h2>
+<form class="grid grid-cols-1 md:grid-cols-2 gap-stack-md">
+<div class="flex flex-col gap-base">
+<label class="font-label-caps text-label-caps text-on-surface-variant uppercase">Full Name</label>
+<input class="bg-surface border border-outline-variant rounded px-3 py-2 text-on-surface focus:border-primary-container focus:ring-1 focus:ring-primary-container transition-colors" placeholder="e.g. Ramesh Kumar" type="text"/>
+</div>
+<div class="flex flex-col gap-base">
+<label class="font-label-caps text-label-caps text-on-surface-variant uppercase">Company</label>
+<input class="bg-surface border border-outline-variant rounded px-3 py-2 text-on-surface focus:border-primary-container focus:ring-1 focus:ring-primary-container transition-colors" placeholder="e.g. Reliance Jio" type="text"/>
+</div>
+<div class="flex flex-col gap-base">
+<label class="font-label-caps text-label-caps text-on-surface-variant uppercase">Email Address</label>
+<input class="bg-surface border border-outline-variant rounded px-3 py-2 text-on-surface focus:border-primary-container focus:ring-1 focus:ring-primary-container transition-colors" placeholder="ramesh@company.com" type="email"/>
+</div>
+<div class="flex flex-col gap-base">
+<label class="font-label-caps text-label-caps text-on-surface-variant uppercase">Phone Number</label>
+<input class="bg-surface border border-outline-variant rounded px-3 py-2 text-on-surface focus:border-primary-container focus:ring-1 focus:ring-primary-container transition-colors" placeholder="+91 XXXXX XXXXX" type="tel"/>
+</div>
+<div class="flex flex-col gap-base md:col-span-2">
+<label class="font-label-caps text-label-caps text-on-surface-variant uppercase">Service Type</label>
+<select class="bg-surface border border-outline-variant rounded px-3 py-2 text-on-surface focus:border-primary-container focus:ring-1 focus:ring-primary-container transition-colors">
+<option>Select a service...</option>
+<option>Preventive Maintenance</option>
+<option>Emergency Repair</option>
+<option>Tower Cleaning &amp; Inspection</option>
+<option>Site Audit &amp; Reporting</option>
+<option>Other Inquiry</option>
+</select>
+</div>
+<div class="flex flex-col gap-base md:col-span-2">
+<label class="font-label-caps text-label-caps text-on-surface-variant uppercase">Message Details</label>
+<textarea class="bg-surface border border-outline-variant rounded px-3 py-2 text-on-surface focus:border-primary-container focus:ring-1 focus:ring-primary-container transition-colors" placeholder="Provide specific details regarding your infrastructure needs..." rows="4"></textarea>
+</div>
+<div class="md:col-span-2 pt-stack-sm flex justify-end">
+<button class="bg-secondary-container text-on-secondary-container font-label-caps text-label-caps px-6 py-3 rounded border border-secondary-container hover:bg-secondary hover:text-on-secondary transition-colors uppercase w-full md:w-auto flex items-center justify-center gap-2" type="submit">
+<span>Submit Request</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">arrow_forward</span>
+</button>
+</div>
+</form>
+</div>
+<!-- Contact Details & Map (Right) -->
+<div class="lg:col-span-4 flex flex-col gap-gutter">
+<!-- Info Card -->
+<div class="bg-primary-container text-on-primary-container border border-outline-variant rounded-lg p-stack-md flex flex-col gap-stack-md">
+<h3 class="font-headline-md text-headline-md text-on-primary border-b border-surface-tint pb-2">Direct Lines</h3>
+<div class="flex flex-col gap-2">
+<span class="font-label-caps text-label-caps text-tertiary-fixed-dim uppercase">24/7 Technical Support</span>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-fixed-dim">phone_in_talk</span>
+<span class="font-status-code text-status-code text-on-primary">+91 (800) AADHYA-TWR</span>
+</div>
+</div>
+<div class="flex flex-col gap-2">
+<span class="font-label-caps text-label-caps text-tertiary-fixed-dim uppercase">General &amp; Technical Email</span>
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-fixed-dim" style="font-size: 16px;">mail</span>
+<span class="font-body-md text-body-md">info@aadhya.com</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-fixed-dim" style="font-size: 16px;">engineering</span>
+<span class="font-body-md text-body-md">support@aadhya.com</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-2 mt-2 pt-stack-md border-t border-surface-tint">
+<span class="font-label-caps text-label-caps text-tertiary-fixed-dim uppercase">Corporate Office</span>
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary-fixed-dim">location_on</span>
+<p class="font-body-md text-body-md">
+                                Level 4, Tower B, Tech Park<br/>
+                                Sector 45, Gurugram<br/>
+                                Haryana 122003, India
+                            </p>
+</div>
+</div>
+</div>
+<!-- PAN India Graphic -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-lg p-stack-md flex flex-col gap-stack-sm items-center text-center">
+<span class="font-label-caps text-label-caps text-secondary uppercase">PAN India Presence</span>
+<img class="w-full h-auto object-cover rounded border border-outline-variant mt-2" data-alt="A stylized, minimalist map of India designed in a technical blueprint style. The map uses a very light slate gray background with dark navy blue outlines for the country borders. Small, glowing safety orange dots indicate major service hubs across the nation, connected by thin, precise geometric lines to show a network. The overall aesthetic is clean, industrial, and highly structured." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAf0VAQ-Alae-bA4FYpqkk8k-9FWtiRh3Nfo-CAvwZWtBck8MMW-FN1K7xN1ocG8DCQh-lfg4a2O_6WQDw8LgeRcN0yHYGUzOzmbXC0sOFFDlhxkx4yH5pa5kmUqhxBWw9CuqYs_OoybeDGflTktSX4kBH4_o5MuT6sWei6hA1vOvOTDC05PwuuY1CjO6Iuf6Ohju8lem3CbCHsQfCxhC-iYgy9wIRsCe2yeStX7dg5f47MkQAz2aigxg"/>
+<p class="font-status-code text-status-code text-on-surface-variant mt-2 text-xs">Serving 28 States &amp; 8 UTs</p>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-inverse-surface dark:bg-tertiary text-on-primary-fixed dark:text-on-tertiary font-body-md text-body-md w-full py-16 border-t border-outline dark:border-outline-variant mt-20">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-10 max-w-screen-2xl mx-auto">
+<div class="md:col-span-1">
+<div class="mb-6 h-10 flex items-center"><img src="https://lh3.googleusercontent.com/aida/AP1WRLsTMPthliPeOd-OlkzsZqUE06CWCVKGe2BV2nftASaZ3JRl7MyeCiwwv3Tr6d8dwJWHh2qIAvBeEXeEGkBz2oJ6s2ifCpqzX4tTfm3HWhVs0NIs8zjLKSDbCe3hp0gonowb62-JaiT8ZPA8FeA2tQFKHQ8kgE1s3VS5dLNKHE_4cqfECKSsuQTAJu-rZu2bF0ZmaikAHr0_LLejYnAlgigHbY3Zuh8n5AmQwOcTTZQTSFEHAguQ5RQCr76x" alt="AADHYA Logo" class="h-10 w-auto object-contain"></div>
+<p class="text-surface-variant opacity-80 mb-6 text-sm">Precision maintenance and operational excellence for critical telecom infrastructure.</p>
+</div>
+<div>
+<h4 class="font-label-caps text-label-caps uppercase text-surface-container-lowest mb-4 tracking-wider">Company</h4>
+<ul class="space-y-3">
+<li class=""><a class="text-surface-variant opacity-80 hover:text-secondary-fixed-dim hover:opacity-100 transition-opacity cursor-pointer" href="about.html">About Us</a></li>
+<li class=""><a class="text-surface-variant opacity-80 hover:text-secondary-fixed-dim hover:opacity-100 transition-opacity cursor-pointer" href="why_choose_us.html">Why Choose Us</a></li>
+<li class=""><a class="text-surface-variant opacity-80 hover:text-secondary-fixed-dim hover:opacity-100 transition-opacity cursor-pointer" href="services.html">Services</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-label-caps text-label-caps uppercase text-surface-container-lowest mb-4 tracking-wider">Legal</h4>
+<ul class="space-y-3">
+<li class=""><a class="text-surface-variant opacity-80 hover:text-secondary-fixed-dim hover:opacity-100 transition-opacity cursor-pointer" href="privacyandpolicy.html">Privacy Policy</a></li>
+<li class=""><a class="text-surface-variant opacity-80 hover:text-secondary-fixed-dim hover:opacity-100 transition-opacity cursor-pointer" href="termsandcondition.html">Terms of Service</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-label-caps text-label-caps uppercase text-surface-container-lowest mb-4 tracking-wider">Support</h4>
+<ul class="space-y-3">
+<li class=""><a class="text-surface-variant opacity-80 hover:text-secondary-fixed-dim hover:opacity-100 transition-opacity cursor-pointer" href="contact.html">Contact Us</a></li>
+</ul>
+</div>
+</div>
+<div class="mt-12 pt-8 border-t border-outline/30 px-10 max-w-screen-2xl mx-auto text-sm text-surface-variant opacity-60">
+            © 2024 AADHYA Telecom Tower Maintenance Services. All Rights Reserved.
+        </div>
+</footer>
+</body></html>
