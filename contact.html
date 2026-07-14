@@ -177,17 +177,22 @@
 <body class="bg-surface text-on-surface font-body-md text-body-md antialiased min-h-screen flex flex-col grid-bg">
 <!-- TopNavBar -->
 <nav class="bg-surface dark:bg-primary-container font-headline-md text-base w-full top-0 sticky border-b border-outline-variant dark:border-outline z-50 shadow-sm">
-<div class="flex justify-between items-center h-16 px-6 md:px-10 max-w-screen-2xl mx-auto">
+<div class="flex justify-between items-center h-16 px-6 md:px-10 max-w-screen-2xl mx-auto relative">
 <!-- Hamburger Menu Button (visible on all screens, moved to left) -->
 <button id="mobile-menu-button" class="flex items-center p-2 text-on-surface hover:text-primary transition-colors focus:outline-none -ml-2">
     <span class="material-symbols-outlined" style="font-size: 28px;">menu</span>
 </button>
+<!-- Mobile Center Title -->
+<div class="absolute left-1/2 -translate-x-1/2 md:hidden flex flex-col justify-center text-center pointer-events-none">
+    <span class="font-display font-bold text-base leading-none tracking-wide text-primary mb-1">AADHYA</span>
+    <span class="font-label-caps text-[8px] leading-tight uppercase tracking-widest text-on-surface-variant">network and communication</span>
+</div>
 <!-- Logo (moved to right) -->
 <div class="flex items-center gap-10">
 <a href="index.html" class="flex items-center gap-2">
     <img src="logo.png" alt="AADHYA Logo" class="h-10 w-auto object-contain">
     <div class="hidden md:flex flex-col justify-center mt-1">
-        <span class="font-display font-bold text-lg leading-none tracking-wide text-primary">AADHYA</span>
+        <span class="font-display font-bold text-lg leading-none tracking-wide text-primary mb-1">AADHYA</span>
         <span class="font-label-caps text-[10px] leading-tight uppercase tracking-widest text-on-surface-variant">network and communication</span>
     </div>
 </a>
@@ -327,7 +332,7 @@
 <div class="mb-6 flex items-center gap-2">
     <img src="logo.png" alt="AADHYA Logo" class="h-10 w-auto object-contain">
     <div class="flex flex-col justify-center mt-1">
-        <span class="font-display font-bold text-lg leading-none tracking-wide text-surface-container-lowest">AADHYA</span>
+        <span class="font-display font-bold text-lg leading-none tracking-wide text-surface-container-lowest mb-1">AADHYA</span>
         <span class="font-label-caps text-[10px] leading-tight uppercase tracking-widest text-inverse-primary">network and communication</span>
     </div>
 </div>
